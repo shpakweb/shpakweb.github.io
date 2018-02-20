@@ -62,27 +62,28 @@ hr {
       display: inline-block;
       padding-right: 15px; }
     .menu-header .otstup_mnu a {
+      display: block;
+      height: 46px;
       color: #000;
       text-transform: uppercase;
       margin-right: 15px;
       text-decoration: none; }
       .menu-header .otstup_mnu a:hover {
         border-bottom: 3px solid #1C808E; }
-
-.scrolldown {
-  position: absolute;
-  top: 88vh;
-  left: 48%; }
-  .scrolldown i {
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    border: 2px solid #fff;
-    padding: 18px;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    margin-bottom: 10px; }
+  .menu-header .scrolldown {
+    position: absolute;
+    top: 88vh;
+    left: 48%; }
+    .menu-header .scrolldown i {
+      text-align: center;
+      color: #fff;
+      font-size: 30px;
+      border: 2px solid #fff;
+      padding: 18px;
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      margin-bottom: 10px; }
 
 #home .header-img {
   height: 100vh;
@@ -96,7 +97,7 @@ hr {
   width: 100%; }
   #my-self .all-foto .colum-picture img {
     width: 100%;
-    background: linear-gradient(black, rgba(8, 8, 8, 0.7));
+    background: linear-gradient(black, rgba(0, 0, 0, 0.4));
     display: inline-block;
     position: relative;
     margin-bottom: 11px; }
@@ -120,7 +121,8 @@ hr {
 #analitics .anakitic-blog {
   margin-bottom: 21px; }
 #analitics .carusel .iframes img {
-  border-bottom: 1px solid #B5B5B5; }
+  width: 100%;
+  border: 1px solid #B5B5B5; }
 #analitics .carusel h1 {
   font-size: 25px; }
 #analitics .carusel p {
@@ -133,8 +135,11 @@ hr {
   #analitics .carusel a i {
     color: #1F8C79; }
 #analitics .carusel .item img {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   padding-left: 117px; }
+#analitics img {
+  display: inline-block;
+  margin-bottom: 25px; }
 
 .fonts {
   height: 382px;
@@ -153,7 +158,7 @@ hr {
   .fonts .e-mail {
     margin-top: 66px; }
     .fonts .e-mail input[type="text"] {
-      margin-right: 12.98px;
+      margin-right: 12.88px;
       background-color: #236B5D;
       display: inline-block;
       border: 2px solid #fff; }
@@ -163,7 +168,7 @@ hr {
       height: 55px;
       padding: 6px 12px;
       font-size: 26px;
-      line-height: 1.42857143;
+      line-height: 1.42857;
       color: #D9D9D9;
       -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -172,12 +177,14 @@ hr {
       transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
     .fonts .e-mail a {
       text-align: center;
-      padding: 13px 0px;
+      padding: 16.5px 0px;
       margin: 0;
       display: inline-block;
-      top: 66px;
-      width: 164px;
+      width: 132.5px;
       height: 55px; }
+    .fonts .e-mail .btn_2 {
+      background-color: rgba(250, 250, 250, 0.58);
+      border: 1px solid #fff; }
   .fonts .soc-btn {
     text-align: center;
     display: inline;
