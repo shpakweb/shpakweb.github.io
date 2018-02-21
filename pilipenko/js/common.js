@@ -17,8 +17,8 @@ jQuery(document).ready(function() {
 
 $(document).ready(function() {
 
-	$(".main_mnu_buttons").click(function(){
-		$(".main_mnu ul").slideToggle();
+	$(".main_mnu_buttons").on('click', function(){
+		$(".main_mnu ul").slideToggle(300);
 
 	});
 
