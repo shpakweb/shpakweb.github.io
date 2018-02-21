@@ -1,24 +1,26 @@
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
-@media screen and (max-width: 992px) {
-  .col-center {
-    text-align: center; }
+.col-center {
+  text-align: center; }
 
+.navbar-head {
+  /* Small Devices, Tablets */ }
   .navbar-head .main_mnu_buttons {
     float: right;
     padding: 10px 10px;
     border: 2px solid #fff; }
-    .navbar-head .main_mnu_buttons .menu-header {
-      display: none; }
-      .navbar-head .main_mnu_buttons .menu-header .otstup_mnu li {
-        display: block; }
+  .navbar-head .menu-header {
+    display: none; }
+    .navbar-head .menu-header .otstup_mnu li {
+      display: block; }
 
-  /* Small Devices, Tablets */ }
-@media only screen and (max-width: 768px) {
-  .otstup-right {
-    margin-right: 20px; }
+.otstup-right {
+  margin-right: 20px; }
 
+.fonts .phone {
+  text-align: center;
   /* Extra Small Devices, Phones */ }
+
 /* Custom, iPhone Retina */
 
 /*# sourceMappingURL=media.css.map */
