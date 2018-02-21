@@ -147,7 +147,7 @@ hr {
   margin-bottom: 25px; }
 
 .fonts {
-  height: 445px;
+  height: auto;
   background-color: #236B5D; }
   .fonts .phone {
     font-family: "Montserrat", serif;
