@@ -50,7 +50,11 @@ hr {
   margin-bottom: 26px;
   margin-top: 16px; }
 
+.top-header {
+  max-height: 340px; }
+
 .menu-header {
+  display: inline-block;
   position: fixed;
   height: 62px;
   width: 100%;
@@ -70,20 +74,21 @@ hr {
       text-decoration: none; }
       .menu-header .otstup_mnu a:hover {
         border-bottom: 3px solid #1C808E; }
-  .menu-header .scrolldown {
-    position: absolute;
-    top: 88vh;
-    left: 48%; }
-    .menu-header .scrolldown i {
-      text-align: center;
-      color: #fff;
-      font-size: 30px;
-      border: 2px solid #fff;
-      padding: 18px;
-      width: 65px;
-      height: 65px;
-      border-radius: 50%;
-      margin-bottom: 10px; }
+
+.scrolldown {
+  position: absolute;
+  top: 88vh;
+  left: 48%; }
+  .scrolldown i {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #fff;
+    padding: 18px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-bottom: 10px; }
 
 #home .header-img {
   height: 100vh;
@@ -142,7 +147,7 @@ hr {
   margin-bottom: 25px; }
 
 .fonts {
-  height: 382px;
+  height: 445px;
   background-color: #236B5D; }
   .fonts .phone {
     font-family: "Montserrat", serif;

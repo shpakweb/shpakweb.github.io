@@ -20,7 +20,7 @@ $(document).ready(function() {
 	$(".main_mnu_buttons").click(function(){
 		$(".main_mnu ul").slideToggle();
 
-	}	)
+	});
 	/*change logotip */
 	
 	
