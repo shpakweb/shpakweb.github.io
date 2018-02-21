@@ -1,4 +1,15 @@
-
+$(window).on('scroll', function(){
+	if ($(this).scrollTop() > 800) {
+		$('.main_mnu_buttons i').css('color', '#1C808E');
+		$('.scrollup').fadeIn('slow');
+		} else {
+		$('.main_mnu_buttons i').css('color', '#fff');
+		$('.scrollup').fadeOut('slow');
+	}});
+$('.scrollup').click(function(){  
+	$("html, body").animate({ scrollTop: 0 }, 1000);
+	return false;
+}); 
 /*<!-- =============================================== -->
 <!-- ========== scrollTop.js ========== -->
 <!-- =============================================== -->*/
@@ -19,8 +30,7 @@ $(document).ready(function() {
 
 	$(".main_mnu_buttons").on('click', function(event){
 		event.preventDefault();
-		$(".small-menu").slideToggle(300);
-
+		$(".menu-header").slideToggle(300);
 	});
 
 	
