@@ -17,8 +17,9 @@ jQuery(document).ready(function() {
 
 $(document).ready(function() {
 
-	$(".main_mnu_buttons").on('click', function(){
-		$(".main_mnu ul").slideToggle(300);
+	$(".main_mnu_buttons").on('click', function(event){
+		event.preventDefault();
+		$(".small-menu").slideToggle(300);
 
 	});
 
