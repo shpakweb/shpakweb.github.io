@@ -1,0 +1,231 @@
+@import colors
+
+body input:focus:required:invalid
+body textarea:focus:required:invalid
+body input:required:valid
+
+html
+	width: 100%
+	overflow-x: hidden
+body
+	color: #767676
+	-webkit-font-smoothing: antialiased
+	width: 100%
+	line-height: 1.75em
+	opacity: 1
+	font-size: 16px
+h1
+	font-family: 'Montserrat', serif
+	font-size: 27px
+	letter-spacing: 10%
+	color: #242424
+	margin-top: 60px
+h2
+	font-family: 'Montserrat', serif
+	font-size: 20px
+	color: #fff
+p 
+	font-family: "Montserrat", sans-serif
+	font-size: 15px
+	line-height: 1.7em
+	color: $font-grey
+hr
+	border-bottom: 1px solid #000 
+	width: 75px
+	margin-bottom: 26px
+	margin-top: 16px
+.center
+	text-align: center
+.italic
+	font-family: "Lora", sans-serif
+	font-style: italic
+	font-size: 15px
+	line-height: 1.7em
+	color: $font-grey
+.top-header
+	max-height: 340px
+	
+.menu-header
+	display: inline-block
+	position: fixed
+	height: 62px
+	width: 100%
+	background-color: rgba(365, 365, 365, 0.8)
+	.otstup_mnu 
+		float: right
+		li 
+			height: 100%
+			display: inline-block
+			padding-right: 15px
+
+		a
+			display: block
+			height: 46px
+			color: #000
+			text-transform: uppercase
+			margin-right: 15px
+			text-decoration: none
+			&:hover
+				border-bottom: 3px solid #1C808E
+.scrolldown
+	position: absolute
+	top: 88vh
+	left: 48%
+	i 
+		text-align: center
+		color: #fff
+		font-size: 30px
+		border: 2px solid #fff
+		padding: 18px
+		width: 65px
+		height: 65px
+		border-radius: 50%
+		margin-bottom: 10px
+#home
+	.header-img
+		height: 100vh
+		background-position: center top
+		background-size: cover
+		background-repeat: no-repeat
+
+#my-self	
+	.title-blog
+		margin-bottom: 36px
+	.all-foto
+		.colum-picture 
+			width: 100%
+			img
+				width: 100%
+				background: linear-gradient(rgba(0,0,0,1) ,rgba(0,0,0,0.4))
+				display: inline-block
+				position: relative
+				margin-bottom: 11px
+			.item-descr 
+				position: absolute
+				bottom: 25px
+				text-align: left
+				padding: 0 15px
+				.topic 
+					display: inline-block
+					float: right
+					color: $font-light
+					background-color: $main-green
+					padding: 13px 45px
+					font-size: 13px
+					font-weight: 500
+					text-transform: uppercase
+					letter-spacing: 3px
+					text-align: center
+
+#analitics
+	.anakitic-blog
+		margin-bottom: 21px
+	.carusel 
+		.iframes img
+			width: 100%
+			border: 1px solid #B5B5B5
+		h1
+			font-size: 25px
+		p 
+			color: #262626
+		a 
+			text-decoration: none
+			float: right
+			font-size: 15px
+			margin-bottom: 96px
+			i 
+				color: #1F8C79
+		.item img
+			margin-bottom: 40px
+			padding-left: 117px
+	.right-col
+	img
+		display: inline-block
+		margin-bottom: 25px
+
+
+.fonts
+	height: auto
+	background-color: #236B5D
+	.phone
+		font-family: 'Montserrat', serif
+		color: #fff
+		font-size: 18px
+		margin: 63px 0px 0px 32px	
+	a 
+		display: block
+		text-decoration: none
+		color: #fff
+		margin-top: 15px
+		margin-bottom: 115px
+	.e-mail
+		margin-top: 66px
+		input[type="text"] 
+			margin-right: 12.88px
+			background-color: #236B5D
+			display: inline-block
+			border: 2px solid #fff
+		.form-control
+			display: block
+			width: 405px	
+			height: 55px
+			padding: 6px 12px
+			font-size: 26px
+			line-height: 1.42857143
+			color: #D9D9D9
+			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075)
+			box-shadow: inset 0 1px 1px rgba(0,0,0,0.075)
+			-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s
+			-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+		a 
+			text-align: center
+			padding: 16.5px 0px
+			margin: 0
+			display: inline-block
+			width: 132.5px
+			height: 55px
+		.btn_2
+			background-color: rgba(250, 250, 250, 0.58)
+			border: 1px solid #fff 
+	.soc-btn
+		text-align: center
+		display: inline
+		margin-top: 30px
+		a 
+			font-size: 24px
+			color: #D2D3D5
+			padding: 7px
+			margin-left: 10px
+			width: 30px
+			height: 30px
+			transition: .5s
+			display: inline-block
+
+			
+						
+.scrollup 
+	width: 30px
+	height: 30px
+	border-radius: 15px
+	opacity: .3
+	position: fixed
+	bottom: 25px
+	right: 25px
+	cursor: pointer
+	color: #fff
+	background-color: #000
+	z-index: 10
+	transition: opacity .5s, background-color .5s
+	-moz-transition: opacity .5s, background-color .5s
+	-webkit-transition: opacity .5s, background-color .5s
+	i
+		position: absolute
+		color: #fff
+		font-size: 15px
+		left: 8px
+		top: 6px
+		text-decoration: none
+		&:activ
+			transition: .2s
+

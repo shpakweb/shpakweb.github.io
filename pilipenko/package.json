@@ -1,0 +1,35 @@
+{
+  "name": "pilipenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shpakweb/shpakweb.github.io.git"
+  },
+  "author": "Shpak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shpakweb/shpakweb.github.io/issues"
+  },
+  "homepage": "https://shpakweb.github.io/pilipenko",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "tiny-lr": "^1.1.0"
+  }
+}
