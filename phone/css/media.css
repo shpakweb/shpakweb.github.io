@@ -1,0 +1,168 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.col-sm-6{
+		width: 50%;
+	}
+
+	.col-sm-12{
+		width: 100%;
+	}
+
+}
+@media (max-width: 991px) and (min-width: 769px){
+
+	.menu-header .main_mnu  li  a {
+    font-size: 12px;
+}
+	.button .btn {
+		margin-left: 20px;
+    min-width: 100px;
+    padding: .7em;
+    height: 40px;
+    font-size: 14px;
+}
+	.center-otstup {
+		margin-top: 0px;
+	}
+		h1 {
+		font-size: 2.9rem;
+	}
+	
+	h3 {
+		font-size:1.6rem;
+		line-height: 26px;
+		font-weight: 600;
+		font-family: "Myriad Pro" , sans-serif;
+		margin: 0;
+	}
+	h6 {
+		font-size: 1.3rem;
+		line-height: 16px;
+	}	
+	p{
+		font-size:14px;
+	}
+
+	}
+	@media (max-width: 1199px) and (min-width: 992px){
+		.colum-text {
+			width: 60%;
+			float: right;
+		}
+	}
+	@media only screen and (min-width : 992px) {
+		.col-sm-6{
+			width: 50%;
+		}
+
+		.col-md-3{
+			width: 25%;
+		}
+	}
+	@media only screen and (max-width : 768px) {
+	.iphone img{
+    	width: 60%;
+    	margin: 0 auto;
+    }
+		.visible{
+			padding-left: 0;
+			list-style: none;
+		}
+		.logotip > img{
+			margin-left: -15px;
+		}
+		.head_text {
+    padding-top: 0px;
+}
+.iphone img {
+    width: 0%;
+    margin: 0 auto;
+}
+		.main_mnu ul{
+			display: none;
+			width: 100%;
+			float: none;
+			position: absolute;
+			left: 10px;
+			margin-top: 80px;
+			background-color: #9da6ac;
+			top: 10px;
+			right: 10px;
+			border-color: transparent;
+			background-color: rgba(255, 255, 255,0.88);
+		}
+		.main_mnu_buttons{
+			border-color: #ddd;
+			margin-top: 20px;
+		}
+		.button a {
+			margin-top: 20px;
+			display: block;
+		}
+
+		.main_mnu li{
+			display: block !important;
+		}
+		.main_mnu a{
+			position: relative;
+			display: block;
+		}
+		.text-iphone-5{
+			margin-bottom: 50px;
+		}
+		h1 {
+			font-size: 2.8rem;
+		}
+		.all-download a {
+			display: block;
+		}
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+
+	}
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+
+	}
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
