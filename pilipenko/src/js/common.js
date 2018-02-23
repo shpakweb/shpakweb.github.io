@@ -1,9 +1,33 @@
+//Animate CSS + WayPoints javaScript Plugin
+//Example: $(".element").animated("zoomInUp", "zoomOutDown");
+//Author URL: http://webdesign-master.ru
+(function($) {
+		$.fn.animated = function(inEffect, outEffect) {
+				$(this).css("opacity", "0").addClass("animated").waypoint(function(dir) {
+						if (dir === "down") {
+								$(this).removeClass(outEffect).addClass(inEffect).css("opacity", "1");
+						} else {
+								$(this).removeClass(inEffect).addClass(outEffect).css("opacity", "1");
+						};
+				}, {
+						offset: "80%"
+				}).waypoint(function(dir) {
+						if (dir === "down") {
+								$(this).removeClass(inEffect).addClass(outEffect).css("opacity", "1");
+						} else {
+								$(this).removeClass(outEffect).addClass(inEffect).css("opacity", "1");
+						};
+				}, {
+						offset: -$(window).height()
+				});
+		};
+})(jQuery);
 $(window).on('scroll', function(){
 	if ($(this).scrollTop() > 800) {
-		$('.main_mnu_buttons i').css('color', '#1C808E');
+		$('.main_mnu_buttons i').addClass('green-btn');
 		$('.scrollup').fadeIn('slow');
 		} else {
-		$('.main_mnu_buttons i').css('color', '#fff');
+		$('.main_mnu_buttons i').removeClass('green-btn');
 		$('.scrollup').fadeOut('slow');
 	}});
 $('.scrollup').click(function(){  
@@ -30,6 +54,7 @@ $(document).ready(function() {
 
 	$(".main_mnu_buttons").on('click', function(event){
 		event.preventDefault();
+		$('.main_mnu_buttons i').toggleClass('green-btn');
 		$(".menu-header").slideToggle(300);
 	});
 

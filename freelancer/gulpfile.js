@@ -7,7 +7,6 @@ var gulp       = require('gulp'), // Подключаем Gulp
     del          = require('del'), // Подключаем библиотеку для удаления файлов и папок
     imagemin     = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
     pngquant     = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
-    cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
     autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 
 gulp.task('sass', function(){ // Создаем таск Sass
@@ -37,8 +36,8 @@ gulp.task('scripts', function() {
 
 gulp.task('watch', ['browser-sync', 'sass', 'scripts', 'images'], function() {
     gulp.watch('src/sass/**/*.sass', ['sass', browserSync.reload]); // Наблюдение за sass файлами в папке sass
-    gulp.watch('src/img/**/*.png', browserSync.reload); // Наблюдение за sass файлами в папке sass
-    gulp.watch('src/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
+    gulp.watch('src/img/**/*.*', browserSync.reload); // Наблюдение за sass файлами в папке sass
+    gulp.watch('build/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
     gulp.watch('src/js/**/*.js', ['scripts', browserSync.reload]);   // Наблюдение за JS файлами в папке js
 });
 
@@ -56,14 +55,11 @@ gulp.task('build', ['clean', 'images', 'sass', 'scripts'], function() {
     var buildCss = gulp.src('src/css/*.css')
     .pipe(gulp.dest('build/css'))
 
-    var buildImg = gulp.src('src/img/*.png')
+    var buildImg = gulp.src('src/img/*.*')
     .pipe(gulp.dest('build/img'))
 
-    var buildJs = gulp.src('src/js/**/*') // Переносим скрипты в продакшен
+    var buildJs = gulp.src('src/js/*.js') // Переносим скрипты в продакшен
     .pipe(gulp.dest('build/js'))
-
-    var buildHtml = gulp.src('src/*.html') // Переносим HTML в продакшен
-    .pipe(gulp.dest('build'));
 
 });
 
