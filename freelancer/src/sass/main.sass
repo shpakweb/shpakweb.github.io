@@ -1,10 +1,14 @@
+@import 'colors'
 
 *::-moz-placeholder, *:-ms-input-placeholder , *:-moz-placeholder  , *::-webkit-input-placeholder  
   color: #666
   opacity: 1
 
 a, a:active 
-  color: #777
+  color: $font-grey
+  font-size: 20px
+  &:hover
+    color: darken($font-grey, 20%)
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid  
@@ -30,7 +34,6 @@ p
   font-family: 'Open-sans', sans-serif
   font-weight: 300
   z-index: 0
-  line-height: 2.6rem
   font-size: 19px
   color: #9aa0ab
 
@@ -39,16 +42,18 @@ h2, h3
   text-decoration: blink
   font-size: 31px
   text-align: center
-  color: #314a5b
+  color: $font-darkblue
 h5
-  font-family: 'Robobto', sans-serif
+  font-family: 'Roboto', sans-serif
   font-weight: 300
-  font-size: 16px
+  font-size: 18px
   margin: 0
   line-height: 2rem
 i 
-  color: red
-  font-size: 16px
+  color: $main-red
+  font-size: 28px
+  &:hover
+    color: darken($main-red, 15%)
 .heading 
   position: fixed
   width: 100%
@@ -63,31 +68,23 @@ i
 .img_header 
   background:  url(../img/header-bg.jpg) no-repeat center top fixed
   min-height: 700px
+  filter: brightness(110%) saturate(85%)
   background-size: cover
   width: 100%
   overflow: hidden
 
 .logo 
-  width: 200px
+  height: 100%
   z-index: 12
   margin: 0px 15px 
 
 .main_mnu 
-  margin: 10px 10vh
+  margin: 25px 0 0
   text-align: center
-  width: 62%
+  width: 50%
   color: #fff
   float: right
   z-index: 12
-  a 
-    padding: 0px 15px
-    display: block
-    text-transform: uppercase
-    font-size: 14px
-    color: #263742
-    -webkit-transition: all.30s
-    -o-transition: all.30s
-    transition: all.30s
   ul 
     margin: 0
     padding: 0
@@ -97,17 +94,107 @@ i
     display:inline-block
     z-index: 12
     li 
-      display:inline-block
+      display: inline-block
+      a 
+        padding: 0px 15px
+        display: block
+        text-transform: uppercase
+        font-size: 14px
+        color: #263742
+        -webkit-transition: all.30s
+        -o-transition: all.30s
+        transition: all.30s
+
+.main_mnu_button
+  width: 32px
+  height: 25px
+  position: fixed
+  top: 25px
+  right: 30px
+  -webkit-transform: rotate(0deg)
+  -moz-transform: rotate(0deg)
+  -o-transform: rotate(0deg)
+  transform: rotate(0deg)
+  -webkit-transition: .5s ease-in-out
+  -moz-transition: .5s ease-in-out
+  -o-transition: .5s ease-in-out
+  transition: .5s ease-in-out
+  cursor: pointer
+  span
+    display: block
+    position: absolute
+    height: 3px
+    width: 100%
+    background: #fff
+    opacity: 1
+    left: 0
+    -webkit-transform: rotate(0deg)
+    -moz-transform: rotate(0deg)
+    -o-transform: rotate(0deg)
+    transform: rotate(0deg)
+    -webkit-transition: .4s ease-in-out
+    -moz-transition: .4s ease-in-out
+    -o-transition: .4s ease-in-out
+    transition: .4s ease-in-out
+    &:nth-child(1)
+      top: 0px
+      -webkit-transform-origin: left center
+      -moz-transform-origin: left center
+      -o-transform-origin: left center
+      transform-origin: left center
+    &:nth-child(2) 
+      top: 11px;
+      -webkit-transform-origin: left center
+      -moz-transform-origin: left center
+      -o-transform-origin: left center
+      transform-origin: left center
+    &:nth-child(3) 
+      top: 21px
+      -webkit-transform-origin: left center
+      -moz-transform-origin: left center
+      -o-transform-origin: left center
+      transform-origin: left center
+
+.opened 
+  span
+    &:nth-child(1)
+      -webkit-transform: rotate(45deg)
+      -moz-transform: rotate(45deg)
+      -o-transform: rotate(45deg)
+      transform: rotate(45deg)
+      top: -3px
+      left: 8px
+    &:nth-child(2)
+      width: 0%
+      opacity: 0
+    &:nth-child(3)
+      -webkit-transform: rotate(-45deg)
+      -moz-transform: rotate(-45deg)
+      -o-transform: rotate(-45deg)
+      transform: rotate(-45deg)
+      top: 21px
+      left: 8px
+
+.colored_mnu
+  background-color: #fa5c64
+  z-index: 1111
+  .main_mnu
+    a, i
+      color: $font-light
+
 .titles_first 
   padding-top: 180px
-  color: #314a5b
+  color: $font-darkblue
   font-size: 20px
   text-transform: uppercase
-  font-style: italic
+  p
+    color: $font-dark
+    font-size: 21px
+    font-weight: 400
 
 .button 
-  background: #fa5c65
-  color: #fbfbfb
+  background: $main-red
+  color: $font-light
   display: block
   border-radius: 4px
   width: 240px
@@ -123,87 +210,91 @@ i
 .title 
   padding-top: 115px
   h2 
-    color: black
+    color: $font-dark
     margin: 0
     font-weight: bold
     font-size: 45px
     text-align: center
     margin-top: 40px
-    text-decoration: none
     text-transform: uppercase
   p 
-    color: #777777
     text-align: justify
-    font-size: 15px
     margin-top: 5px
 
 #Services 
-  background-color: #F9F9FF
+  background-color: $services-bg
   padding-bottom: 160px
   z-index: 1
 
-.button_more 
-  float: left
-  color: red
-  i 
-    margin-right: 3px
-
 .services_item 
-  display: block
-  margin: 15px
+  display: inline-block
+  float: left
+  margin: 15px 0
   h3 
-    text-transform: uppercase
-    font-size: 36px
     text-align: center
+    text-transform: uppercase
+    font-size: 33px
     margin-bottom: 15px
     font-family: 'Montserrat', sans-serif
-    line-height: 35px
+    line-height: 40px
     display: block
+.button_more 
+  float: left
+  color: $main-red
 
-.portfolio_text h3 
-  text-transform: uppercase
-  font-size: 26px
-  margin-bottom: 15px
-  font-family: 'Montserrat', sans-serif
-  overflow: hidden
+.portfolio_text
+  h3 
+    text-transform: uppercase
+    font-size: 26px
+    margin-bottom: 15px
+    font-family: 'Montserrat', sans-serif
+    overflow: hidden
 
 #portfolio 
   z-index: 1
 
   /*<!-- contact -->*/
 .team-heading  
-  margin-bottom: 40px
+  margin-bottom: 25px
   h1 
+    text-align: center
     text-transform: uppercase
     font-size: 26px
     margin-bottom: 15px
-    font-family: 'Montserrat', sans-serif
     i 
       font-size: 7px
-      color: #fa5c65
-  h5 
-    font-size: 15px
+      color: $main-red
+  p 
+    font-size: 18px
+    text-align: center
 
-.team  
+.team
+  display: inline-block
+  width: 100%  
+  margin: 20px auto
+  max-width: 500px
+  min-height: 120px
   img 
     float: left
     margin-right: 20px
   .team-info
     h2 
+      text-align: left
       text-transform: uppercase
       font-size: 22px
       font-family: "Montserrat", sans-serif
       margin-bottom: 0
     p 
-      font-size: 14px
+      font-size: 15px
 .team-more 
-  padding-top: 72px
+  margin-top: 10px
+  margin-right: 25px
   float: right
   a 
     h4 
     text-transform: uppercase
     font-size: 15px
-    color: #fa5c65
+    color: $main-red
     &hover 
       color: pink
   i 
@@ -213,11 +304,10 @@ i
     transition: .3s ease-in-out
     -webkit-transition: .3s ease-in-out
     -moz-transition: .3s ease-in-out
-    &hover
-      color: red
-
-.made_in
-  p 
-    font-size: 13px
-    color: #b9c0c6
-    text-align: right
+.soc_buttons
+  width: 240px
+  margin: auto
+  a
+    margin: 0 20px
+    &:hover
+      color: darker()
