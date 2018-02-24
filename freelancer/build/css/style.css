@@ -1,4 +1,7 @@
 
+body {
+  owerflow-x: hidden; }
+
 *::-moz-placeholder, *:-ms-input-placeholder, *:-moz-placeholder, *::-webkit-input-placeholder {
   color: #666;
   opacity: 1; }
@@ -26,7 +29,7 @@ div {
 
 p {
   font-size: 15px;
-  text-align: justify;
+  text-align: left;
   width: 100%;
   padding: 0;
   margin-left: 0;
@@ -36,6 +39,9 @@ p {
   z-index: 0;
   font-size: 19px;
   color: #9aa0ab; }
+
+h1 {
+  font-size: 1.9em; }
 
 h2, h3 {
   font-family: "Roboto", sans-serif;
@@ -179,11 +185,10 @@ i {
 .titles_first {
   padding-top: 180px;
   color: #314a5b;
-  font-size: 20px;
   text-transform: uppercase; }
   .titles_first p {
     color: #333333;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400; }
 
 .button {
@@ -368,7 +373,8 @@ i {
     display: block;
     margin-bottom: 20px; }
   .team-member {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
   /* Small Devices, Tablets */ }
 
 @media only screen and (max-width: 768px) {
