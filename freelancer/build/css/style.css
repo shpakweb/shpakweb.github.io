@@ -1,6 +1,6 @@
 
 body {
-  owerflow-x: hidden; }
+  owerflow-x: hidden !important; }
 
 *::-moz-placeholder, *:-ms-input-placeholder, *:-moz-placeholder, *::-webkit-input-placeholder {
   color: #666;
@@ -41,7 +41,7 @@ p {
   color: #9aa0ab; }
 
 h1 {
-  font-size: 1.9em; }
+  font-size: 1.95em; }
 
 h2, h3 {
   font-family: "Roboto", sans-serif;
@@ -116,7 +116,7 @@ i {
         transition: all 0.3s; }
 
 .main_mnu_button {
-  width: 32px;
+  width: 25px;
   height: 25px;
   position: fixed;
   top: 25px;
@@ -131,7 +131,7 @@ i {
   .main_mnu_button span {
     display: block;
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 100%;
     background: #fff;
     opacity: 1;
@@ -148,12 +148,12 @@ i {
       -ms-transform-origin: left center;
           transform-origin: left center; }
     .main_mnu_button span:nth-child(2) {
-      top: 11px;
+      top: 7px;
       -webkit-transform-origin: left center;
       -ms-transform-origin: left center;
           transform-origin: left center; }
     .main_mnu_button span:nth-child(3) {
-      top: 21px;
+      top: 15px;
       -webkit-transform-origin: left center;
       -ms-transform-origin: left center;
           transform-origin: left center; }
@@ -173,7 +173,7 @@ i {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
       transform: rotate(-45deg);
-  top: 21px;
+  top: 15px;
   left: 8px; }
 
 .colored_mnu {
@@ -335,7 +335,7 @@ i {
     display: none;
     background-color: rgba(255, 255, 255, 0.95);
     height: 100vh;
-    width: 50vw;
+    width: 65vw;
     max-width: 400px;
     padding-top: 10vh;
     margin: 70px -10px 0;
