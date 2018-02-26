@@ -1,0 +1,30 @@
+body {
+	font-family: 'Segoe UI', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #777;
+}
+a:hover {
+	text-decoration: none;
+
+}
+h2 {
+	font-weight: 100;
+	color: #666;
+	text-align: center;
+}
+.works {
+	margin-top: 30px;
+}
+.work-item {
+	display: inline-block;
+	text-align: center;
+}
+.work-item img {
+	margin-bottom: 15px;
+}
+.work-item img:hover {
+	box-shadow: 20px 20px 20px rgba(0,0,0,0.05);
+	transition: .5s;
+}
