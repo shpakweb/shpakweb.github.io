@@ -774,3 +774,6 @@ iframe.embed-responsive-item {
 .scrollup:active{
 	transition: .2s;
 }
+.fadeOutRight {
+    animation-name: none;
+}
