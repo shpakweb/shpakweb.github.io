@@ -11,7 +11,7 @@ $(document).ready(function() {
 	$('second-container').animated('fadeInRight');
 	$(".main_mnu a").click(function(){
 		$("section").removeClass("blured");
-		$(".otstup_mnu").removeClass('slideInDown').addClass('fadeOutRight').removeClass("opened");
+		$(".otstup_mnu").removeClass("opened slideInDown");
 	});
 	$(".main_mnu_buttons").click(function(){
 		if($(".otstup_mnu").hasClass("opened")){
