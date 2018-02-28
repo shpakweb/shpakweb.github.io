@@ -4,9 +4,12 @@ $(document).ready(function() {
 		$(this).next().slideToggle();
 	}	)
 	$(".main_mnu_buttons").click(function(){
-		$(".main_mnu ul").slideToggle();
-
-	}	)
+		if($('.main_mnu ul').hasClass('opened')){
+			$(".main_mnu ul").removeAttr('style').removeClass('opened');}
+		else {
+		$(".main_mnu ul").slideDown().addClass('opened');
+		}
+	})
 
 	$('.dark_text').animated('fadeInDown', 'fadeOutUp');
 	$('.text_header').animated('bounceInLeft', 'bounceOutLeft');
@@ -25,9 +28,9 @@ $(document).ready(function() {
 	$(".fancybox").fancybox();
 
 	//Навигация по Landing Page
-	//$(".top_mnu") - это верхняя панель со ссылками.
+	//$(".main_mnu") - это верхняя панель со ссылками.
 	//Ссылки вида <a href="#contacts">Контакты</a>
-	$(".top_mnu").navigation();
+	$(".main_mnu").navigation();
 
 	//Добавляет классы дочерним блокам .block для анимации
 	//Документация: http://imakewebthings.com/jquery-waypoints/
