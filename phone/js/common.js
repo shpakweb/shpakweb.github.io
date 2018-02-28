@@ -23,7 +23,7 @@ $(document).ready(function() {
 		$(".otstup_mnu").toggleClass("opened");
 		$("section").toggleClass("blured");
 	});
-	if ($(this).scrollTop() > 750) {
+	if ($(this).scrollTop() > 700) {
 		$('.scrollup').fadeIn();
 		$('.navbar-fixed-top').css('background', 'rgba(215, 215, 215, 1)');
 	}
@@ -83,7 +83,7 @@ $(document).ready(function() {
 $(window).on('scroll', function(){
 	var logo = 'images/logo.png';
 
-	if ($(this).scrollTop() > 750) {
+	if ($(this).scrollTop() > 700) {
 		$('.scrollup').fadeIn('slow');
 		$('.navbar-fixed-top').css('background', 'rgba(215, 215, 215, 1)');
 	} else {
