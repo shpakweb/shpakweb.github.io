@@ -6,9 +6,11 @@ $(document).ready(function() {
 	$('.pic_iphone_3').animated('zoomInLeft');
 	$('.iphone-4 ').animated('fadeInLeft');
 	$('.iphone-5').animated('zoomInRight');
-	$('.all-seen').animated('rotateIn');
+	$('.all-seen').animated('fadeInLeft');
 	$('.soc-buttons').animated('zoomInLeft');
 	$('second-container').animated('fadeInRight');
+	$(".main_mnu").navigation();
+	
 	$(".main_mnu a").click(function(){
 		$("section").removeClass("blured");
 		$(".otstup_mnu").removeClass("opened slideInDown");
