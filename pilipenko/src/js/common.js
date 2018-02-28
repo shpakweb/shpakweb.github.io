@@ -38,6 +38,12 @@ $('.scrollup').click(function(){
 <!-- ========== scrollTop.js ========== -->
 <!-- =============================================== -->*/
 jQuery(document).ready(function() {
+	$(".otstup-right").click(function(){
+      $("#bigImage").attr('src', $(this).attr('src'));
+      $("#title").text($(this).next('.item-title').text());
+      $("#text").text($(this).parent().find('.item-text').text());
+      $("#link").attr('href', $(this).parent().find('.analytics-link').attr('href'));
+    });
   jQuery("a.scroll-btn").click(function () {
     elementClick = jQuery(this).attr("href")
     destination = jQuery(elementClick).offset().top;

@@ -143,13 +143,12 @@ section:nth-of-type(odd) {
 }
 
 .icon-bar{
-	background-color: #888;
+	background-color: #fff;
 	display: block;
 	margin-top: 4px;
 	width: 22px;
-	height: 2px;
+	height: 1.5px;
 	border-radius: 1px;
-
 }
 
 .btn {
@@ -187,11 +186,11 @@ p.description {
 }
 
 .white-btn{
-	max-width: 250px;
 	max-height: 50px;
 	border-radius: 50px;
 	background: #fff;
 	color: #585b60;
+	text-decoration:none;
 }
 
 .white-btn:hover{
@@ -206,14 +205,13 @@ p.description {
 .otstup_mnu {
 	margin: 7.5px -15px;
 	display: inline-flex;
-	
 }
 
 .main_mnu_buttons{
 	position: relative;
 	float: right;
 	margin-right: 15px;
-	padding: 9px 15px;
+	padding: 8px 13px 9px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	background-color: transparent;
@@ -249,16 +247,16 @@ p.description {
 	float: right;
 	margin-top: 30px;
 }
-.menu-header .main_mnu li{
+.main_mnu li{
 	margin-top: -8px;
 	display: inline-block;
 }
-.menu-header .main_mnu ul{
+.main_mnu ul{
+	display: block;
 	padding: 0;
 	margin-left:-10px;
 
 }
-
 .top-header{
 	max-height: 340px;
 }
@@ -299,19 +297,16 @@ p.description {
 	-o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 100%;
+	height: 100vh;
+	padding-top: 18vh;
 }
 
-.header-img{
-	padding-top: 180px;
-}
 .center{
 	text-align: center;
 }
 .iphone img{
-	width: 100%;
+	max-height: 74vh;
 	vertical-align: middle;
-	margin-bottom: 20px;
 	display: block;
 }
 .head_text{
@@ -334,9 +329,7 @@ p.description {
 	color: #fff;
 	text-decoration: none;
 }
-.scrolldown {
-	padding-top: 	24px;
-}
+
 .scroll_btn{
 	background: url(../images/scroll.gif) 50% 50% no-repeat rgba(215, 181 ,94, 0);
 	border: 2px solid #fff;
@@ -345,7 +338,7 @@ p.description {
 	-webkit-border-radius: 50%;
 	display: block;
 	height: 45px;
-	margin: 42px auto;
+	margin: 0 auto 20px;
 	-webkit-transition: all 500ms ease-in-out 0s;
 	-moz-transition: all 500ms ease-in-out 0s;
 	-ms-transition: all 500ms ease-in-out 0s;
@@ -746,6 +739,7 @@ p.description {
 }
 /*--------scroll-top------*/
 .scrollup {
+	display: none;
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
@@ -769,6 +763,6 @@ p.description {
 	top: 6px;
 	text-decoration: none;
 }
-.scrollup:activ{
+.scrollup:active{
 	transition: .2s;
 }

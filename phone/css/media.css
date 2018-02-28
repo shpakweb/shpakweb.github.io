@@ -1,13 +1,5 @@
 /*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
-
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
@@ -21,7 +13,7 @@
 
 }
 @media (max-width: 991px) and (min-width: 769px){
-
+	
 	.menu-header .main_mnu  li  a {
     font-size: 12px;
 }
@@ -71,6 +63,10 @@
 		}
 	}
 	@media only screen and (max-width : 768px) {
+	.blured{
+		filter: blur(3px);
+		transition: .4s;
+	}
 	.iphone img{
     	width: 60%;
     	margin: 0 auto;
@@ -83,27 +79,29 @@
 			margin-left: -15px;
 		}
 		.head_text {
-    padding-top: 0px;
-}
-.iphone img {
-    width: 0%;
-    margin: 0 auto;
-}
+    		padding-top: 0px;
+		}
+		.iphone img {
+		    width: 0%;
+		    margin: 0 auto;
+		}
 		.main_mnu ul{
 			display: none;
 			width: 100%;
 			float: none;
 			position: absolute;
 			left: 10px;
-			margin-top: 80px;
-			background-color: #9da6ac;
-			top: 10px;
+			top: 60px;
 			right: 10px;
 			border-color: transparent;
-			background-color: rgba(255, 255, 255,0.88);
+			background-color: rgb(215, 215, 215);
+		}
+
+		.menu-header .opened{
+			display: block;
 		}
 		.main_mnu_buttons{
-			border-color: #ddd;
+			border-color: #fff;
 			margin-top: 20px;
 		}
 		.button a {
@@ -129,40 +127,3 @@
 		}
 	}
 
-	/* Extra Small Devices, Phones */
-	@media only screen and (max-width : 480px) {
-
-	}
-
-	/* Custom, iPhone Retina */
-	@media only screen and (max-width : 320px) {
-
-	}
-
-
-	/*==========  Mobile First Method  ==========*/
-
-	/* Custom, iPhone Retina */
-	@media only screen and (min-width : 320px) {
-
-	}
-
-	/* Extra Small Devices, Phones */
-	@media only screen and (min-width : 480px) {
-
-	}
-
-	/* Small Devices, Tablets */
-	@media only screen and (min-width : 768px) {
-
-	}
-
-	/* Medium Devices, Desktops */
-	@media only screen and (min-width : 992px) {
-
-	}
-
-	/* Large Devices, Wide Screens */
-	@media only screen and (min-width : 1200px) {
-
-	}

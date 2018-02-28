@@ -248,6 +248,12 @@ hr {
       -o-transition: .2s;
       transition: .2s; }
 
+.analytics-item img {
+  width: 100%; }
+
+.item-title, .item-text {
+  display: none; }
+
 /* Medium Devices, Desktops */
 @media screen and (max-width: 992px) {
   .col-center {
