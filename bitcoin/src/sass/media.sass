@@ -1,0 +1,196 @@
+@import 'colors'
+
+@media only screen and (min-width : 992px) 
+	.fadeOutRight 
+	    animation-name: none
+	
+
+@media only screen and (max-width : 992px) 
+	.text-1,.yellow
+		text-align: center
+	.scrolldown 
+		left: 44%
+		img
+			width: 110px
+  			height: 110px
+	.text-1, .yellow, .flipdown
+		text-align: center
+		margin: 15px auto
+
+	.title-tov
+		margin: auto	
+		margin-bottom: 50px
+
+	.top
+		margin-top: 50px
+
+	.all-forms img
+		width: 60%
+		margin-bottom: 0
+
+	.main-mnu-button 
+		width: 30px
+		background: none
+		border: none
+		z-index: 1111
+		float: right
+		i
+			font-size: 30px
+	
+	.main-mnu 
+		ul
+			display: none
+			padding-top: 40px
+			position:  absolute
+			width: 100%
+			margin-top: 50px
+			top: 10.5vh
+			right:  0
+			margin: 0
+			width: 50%
+			max-width: 300px
+			height: 92vh
+			z-index: 1
+			background: rgba(365,365,365,0.9)
+			li
+				display: block
+				width: 100%
+				padding: 25px 0
+				text-align: center
+				&:hover
+					background: $small-menu-hover
+				a
+					font-size: 16px
+					text-transform: uppercase
+					color: #616161
+					text-align:  center
+					&:hover
+						text-decoration: none
+
+	.opened
+		display: block !important
+	
+	.calendar
+		position: relative
+		top: 0px
+		left: 0
+		width:  100%
+		margin: 10% 0 0
+		min-width: auto
+	
+	.text-4
+		position: relative
+		margin-bottom: 94px
+		padding-bottom: 73px
+		&:after 
+			padding-top: 10px
+			content: ""
+			width: 50%
+			border-bottom: solid 2px $yellow-hover
+			left: 25%
+			position: absolute
+	
+	.advent
+		&:nth-of-type(4):after 
+			content: ""
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			border-bottom: 1px solid $grey-border
+		&:nth-child(odd) .colum-discount
+			border-right: 1px solid $grey-border
+		&:nth-child(even) .colum-discount
+			border-right: none
+	
+	.title-money 
+			padding: 0 0 30px
+	
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) 
+	h1
+		font-size: 26px
+	.mauris, .black-text
+		font-size: 18px
+
+	.gold-title
+		font-size: 30px
+
+	.color-text
+		font-size: 35px
+
+	.description
+		font-size: 18px
+	
+	.scrolldown 
+		left: 40%
+	
+	.btn-yel 
+    margin: auto
+    display:  table
+
+	.all-pic
+		&:before 
+			width: 50%
+			height: 73vh
+			border-bottom: none
+			border-right: solid 2px $yellow-hover
+		img 
+			padding: 10px
+			background: $light
+	
+	.fonts
+		padding-bottom: 90px
+	
+	.picture, .picture img 
+	    width: 100%
+	    margin-left: 0
+	    padding-bottom: 0
+ 
+	.fonts-mask
+		width: 93%
+		margin: auto
+		float: none
+		display: block
+	
+	.number
+		font-size: 121px
+		height:  auto
+		bottom: 0%
+		padding:  0
+		left:  20%
+		width:  auto
+	
+	.layer 
+		margin: 0
+		margin-bottom: 80px
+		height: 38px
+		background: $light
+	
+	.advent .colum-discount
+		border-right: none !important
+		min-height: auto
+	
+	.advent
+		&:after 
+			content: ""
+			position: absolute
+			bottom: 0
+			border-bottom: 1px solid $grey-border
+			left: 20% !important
+			width: 70% !important
+	
+	.text-discount
+		width: 80%
+		min-width: 200px
+		margin: auto
+	
+	.mask-finish
+		background-color: $light
+	
+	.footer-down
+		margin-top: 40px
+
+

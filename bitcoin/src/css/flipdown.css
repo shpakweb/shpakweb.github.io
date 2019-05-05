@@ -1,0 +1,193 @@
+  /*************Countdown************/
+  /*********************************/
+
+ .flipdown {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.flipdown {
+    overflow: visible;
+    width: 420px;
+    height: 100px;
+    padding: 15px 0;
+}
+.flipdown .rotor-group {
+  overflow: visible;
+  position: relative;
+  float: left;
+  text-align:  x;
+  padding-right: 30px;
+}
+
+.flipdown .rotor-group-heading {
+  width:  76px;
+  height: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #a3a3a3;
+  position:  absolute;
+  bottom: -30px;
+  text-transform:  uppercase;
+}
+
+.flipdown .rotor-group-heading:after {
+  content: 'Days';
+  width: 135px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.flipdown .rotor-group:nth-child(1) .rotor-group-heading:after {
+  content: 'Дней';
+}
+
+.flipdown .rotor-group:nth-child(2) .rotor-group-heading:after {
+  content: 'Часов';
+}
+
+.flipdown .rotor-group:nth-child(3) .rotor-group-heading:after {
+  content: 'Минут';
+}
+
+.flipdown .rotor-group:nth-child(4) .rotor-group-heading:after {
+  content: 'Секунд';
+}
+
+.flipdown .rotor-group:last-child {
+  padding-right: 0;
+}
+
+
+.flipdown .rotor {
+  position: relative;
+  float: left;
+  width: 36px;
+  height: 54px;
+  margin: 0px 5px 0px 0px;
+  border-radius: 4px;
+  font-size: 40px;
+  text-align: center;
+  background-color: #fff;
+  color: #616161;
+  perspective: 200px;
+}
+
+.flipdown .rotor:last-child {
+  margin-right: 0;
+}
+
+.flipdown .rotor-top, .flipdown .rotor-bottom {
+  overflow: hidden;
+  position: absolute;
+  width: 36px;
+  height: 27px;
+}
+
+.flipdown .rotor-leaf {
+  z-index: 1;
+  position: absolute;
+  width: 36px;
+  height: 54px;
+  transform-style: preserve-3d;
+  transition: transform 0s;
+}
+
+.flipdown .rotor-leaf.flipped {
+  transform: rotateX(-180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear {
+  overflow: hidden;
+  position: absolute;
+  width: 36px;
+  height: 27px;
+  margin: 0;
+  transform: rotateX(0deg);
+  backface-visibility: hidden;
+}
+
+.flipdown .rotor-leaf-front {
+  background-color: #fff;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.flipdown .rotor-leaf-rear {
+  line-height: 0px;
+  background-color: #fff;
+  color: #616161;
+  border-radius: 0px 0px 4px 4px;
+  transform: rotateX(-180deg);
+  transition: background-color 0.5s;
+}
+
+.flipdown .rotor-leaf.flipped .rotor-leaf-rear {
+  background-color: #fff;
+  color: #616161;
+  transition: background-color 0.5s;
+}
+
+.flipdown .rotor-top {
+  background-color: #fff;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.flipdown .rotor-bottom {
+  bottom: 0;
+  line-height: 0px;
+  background-color: #fff;
+  color: #616161;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.flipdown .rotor:after {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 36px;
+  height: 27px;
+  border-top: solid 1px #666;
+  border-radius: 0px 0px 4px 4px;
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .scrolldown {
+    left: 40%;
+  }
+  .flipdown {
+    width: 350px ;
+}
+  .flipdown .rotor {
+    width: 30px ;
+    height: 40px ;
+    margin: 0px 5px;
+    font-size: 32px ;
+}
+.flipdown .rotor-leaf {
+    width: 30px ;
+    height: 40px;
+    font-size:  32px ;
+}
+.flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear {
+    width: 30px ;
+    height: 20px ;
+    font-size: 32px ;
+}
+.flipdown .rotor-top, .flipdown .rotor-bottom {
+    width: 30px ;
+    height: 20px ;
+}
+.flipdown .rotor:after {
+    width: 30px ;
+    height: 20px ;
+}
+.flipdown .rotor-group {
+    padding-right: 10px;
+}
+}
+
+/************************************/
+/***********End of flipdown********/

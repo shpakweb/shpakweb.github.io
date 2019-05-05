@@ -1,0 +1,580 @@
+@import 'colors'
+@import 'fonts'
+
+*::-webkit-input-placeholder 
+	color: $light-grey
+	opacity: 1
+	padding-right: 15px
+*:-moz-placeholder 
+	color: $light-grey
+	opacity: 1
+	padding-right: 15px
+*::-moz-placeholder 
+	color: $light-grey
+	opacity: 1
+	padding-right: 15px
+*:-ms-input-placeholder 
+	color: $light-grey
+	opacity: 1
+	padding-right: 15px
+	
+body input:focus:required:invalid,
+body textarea:focus:required:invalid 
+	
+body input:required:valid,
+body textarea:required:valid 
+	
+html 
+	width: 100%
+	overflow-x: hidden
+	
+body 
+	font-family: HelveticaNeue,Helvetica,Arial,sans-serif
+	color: $light
+	-webkit-font-smoothing: antialiased
+	width: 100%
+	imgmax-width: 100%
+	padding: 0 !important
+input
+	padding: 11px 12px
+
+p
+	font-weight: normal
+	font-style: normal
+	font-stretch: normal
+	line-height: normal
+	letter-spacing: 2.6px
+	color: $dark-text
+	font: normal 16px HelveticaNeue,Helvetica, Arial,sans-serif
+
+a
+	&hover
+		text-decoration: none
+	&visited
+		color: #fff
+
+ul
+	margin: 0
+	padding: 0
+	list-style: none
+
+h1, h2, h3, h4, h5
+	font-style: normal
+	font-stretch: condensed
+h1
+	color: $dark-text
+	font-size: 40px
+	font-family: HelveticaNeue-Bold
+	line-height: 0.78
+	letter-spacing: 2.7px
+	margin:  0
+
+h2
+	font-size: 30px
+	font-family: HelveticaNeue-Bold
+	line-height: normal
+	letter-spacing: -0.4px
+
+
+h3 
+	font-size: 20px
+	letter-spacing: 0px
+	line-height: 1.58
+	margin:  0
+
+h4
+	font-size: 23px
+	font-family: HelveticaNeue-Bold
+	letter-spacing: 0.8px
+	margin-top: 0px
+
+h5
+	font-size: 20px
+	font-family: HelveticaNeue-Bold
+	letter-spacing: 1.3px
+	color: $dark-text
+
+section
+	background-color: $light
+
+.top
+	margin-top: 80px
+
+.btn
+	background: none
+	border: 1px solid $yellow
+	border-radius: 3px
+	display: inline-block
+	min-width: 220px
+	padding: .9em
+	height: 50px
+	text-align: center
+	color: $light
+	font-style: normal
+	text-transform: uppercase
+	letter-spacing: 1px
+	margin-left: 5px
+	font-size: 17px
+	font-family: HelveticaNeue-Bold
+	transition: .5s
+	margin-bottom: 10px
+	&:hover 
+		background-color: $yellow-hover
+		text-decoration: none
+	&:focus
+		color: #fff
+.yellow 
+	background-color: $yellow
+	padding:  0 10px
+	width: fit-content
+	max-width: 250px
+	text-transform:  uppercase
+
+.btn-yel
+	background: $yellow
+
+.btn-black-text
+	display: inherit
+	margin: auto
+	color: $dark-text
+
+.center-position
+	text-align: center
+
+.head-img 
+	height: 100vh
+	background-repeat: no-repeat
+	background-position: top
+	background-size: cover
+
+
+.Tovxin 
+	margin-left: 15px
+	margin-top: 30px
+	width: 145px
+	height: 41px
+	font-family: Lato
+	font-size: 34px
+	font-family: HelveticaNeue-Bold
+	font-style: normal
+	font-stretch: normal
+	line-height: normal
+	letter-spacing: 2.3px
+	text-align: left
+	color: $yellow
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+	position: absolute	
+	text-indent: 0px	
+	span
+		&:nth-child(2)
+		color: $light
+		text-indent: 0px
+
+.main-mnu
+	display: inline-block
+	text-align: center
+	width: 100%
+	float: left
+	a
+		padding: 0px 15px
+		display: block
+		font-family: HelveticaNeue
+		font-size: 21px
+		font-family: HelveticaNeue-Bold
+		font-style: normal
+		font-stretch: condensed
+		line-height: normal
+		letter-spacing: 0.8px
+		text-align: left
+		color: $light
+	ul
+		margin: 38px
+		padding: 0
+		z-index: 12
+		list-style-type: none
+		text-align: center
+		display: inline-block
+		li
+			display: inline-block
+
+.language, .main-mnu-button
+	margin: 37px 5px
+	float: right
+
+.language
+	img
+		display: block
+
+.descr 
+	font-stretch: normal
+	line-height: 0.95
+	text-align: left
+
+.line 
+	width: 3px
+	height: 21px
+	border: solid 1px $yellow
+	background-color: $yellow
+
+.line-7 
+	display: inline-block
+	width: 3px
+	height: 38px
+	border: solid 3px $yellow
+.text-1
+	padding: 0px
+.text-2
+	display: inline-block
+	font-size: 35px
+	line-height: 31px
+	font-weight:  bold
+	h1
+		color: $yellow
+		line-height: 31px
+		margin: 0
+	
+.text-3 
+	h4
+		color: $yellow
+
+.scrolldown
+	left: 45.5%
+	top: 93vh
+	position: absolute
+	img 
+		&:hover 
+			cursor: pointer
+	
+.register
+	padding-left: 50%
+	/*****************About-us************/
+	/*************************************/
+	.text-title 
+		color: #000
+.path 
+	max-width: 361px
+	max-height: 101px
+	padding-bottom: 15px
+	border-radius: 3px
+	background-color: #333333
+	h2
+		padding-top: 18px
+		margin: 0
+		color: $yellow
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+		letter-spacing: -0.4px	
+		text-transform: uppercase
+		padding-bottom: 0px
+	h3
+		padding-top: 5px
+	
+.Rectangle 
+	width: 359px
+	padding-bottom: 30px
+	border-radius: 3px
+	background-color: $light
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5)
+	
+.two-input 
+	padding-top: 30px
+.email, .phone 
+	color: #000
+	border: solid 1px $light-grey
+	border-radius: 3px
+	margin: 0px 12px 15px 18px
+	display: block
+	height: 40px
+	width: 329px
+	background-color: $inputs
+	
+// .email
+// 	*::-webkit-input-placeholdercolor: #8f8f8f
+// .email
+// 	*::-ms-input-placeholdercolor: #8f8f8f
+// .email
+// 	*::-moz-placeholdercolor: #8f8f8f
+
+	/****************** checkbox styles ****************/
+	/***************************************************/
+
+.yellow-checkbox 
+	position: relative
+	color: #8f8f8f
+	font-size: 12px
+	margin: 16px 0 35px
+	text-align: left
+	padding-left: 20px
+	label
+		&:before, &:after 
+			content: ""
+			position: absolute
+			left: 18px
+			top: 4px
+		&:before 
+			width: 20px
+			height: 20px
+			background: $light
+			border: 4px solid #e2e2e2
+			border-radius: 5px
+			cursor: pointer
+			transition: background .3s
+	input[type="checkbox"] 
+		outline: 0
+		margin-right: 10px
+		visibility: hidden
+		&:checked + label:before 
+			background: $yellow
+			z-index:  1
+			border-radius:  5px
+			border: 4px solid $inputs
+		&:checked + label:after 
+			transform: rotate(-45deg)
+			top: 5px
+			left: 4px
+			width: 12px
+			height: 6px
+			border: 2px solid $light
+			border-top-style: none
+			border-right-style: none
+	&:before, &:after 
+		box-sizing: border-box
+/* end of checkbox styles */
+/***************************************************/
+
+.bonus 
+	img
+		position: absolute
+		left: 327px
+		top: 68px
+.all-pic
+	padding-top: 50px 
+	&:before
+		content: ""
+		width: 100%
+		margin-top: 80px
+		border-bottom: solid 2px $yellow-hover
+		left: 0
+		position: absolute
+		z-index: 0
+	
+.layer
+	margin: 11px
+	margin-bottom: 80px
+	
+.number
+	opacity: 0.1
+	color: #adadad
+	font-size: 250px
+	font-family: HelveticaNeue-Bold
+	height:  100%
+	left: 5%
+	padding: 100px 0
+	width: 500px
+	margin:  auto
+	position:  absolute
+.fonts
+	position: relative
+	background-image: linear-gradient(256deg, $gr-lighter, $gr-darker)
+.fonts-mask 
+	padding: 7% 0px
+	width: 50%
+	display: inline-block
+	float:  left
+	h1
+		line-height: normal
+		color: $light
+	
+.fonts-mask>*
+	margin: auto
+	width: 100%
+	min-width:  400px
+	
+.description
+	color: $light
+	margin-top: 20px
+	font-size: 20px
+	line-height: 1.35
+	
+.picture
+	width: 40%
+	margin-left: 10%
+	padding-bottom: 60px
+	display: inline-block
+	
+.title-tov
+	margin-bottom: 90px
+	
+.onli-tovxin
+	font-family: Lato
+	display: inline
+	color: $dark-text
+	font-size: 34px
+	padding: 9px
+	
+.all-forms 
+	img
+		width: 100%
+		margin-bottom: 90px
+	
+.mauris
+	font-size: 20px
+	font-weight: normal
+	font-style: normal
+	font-stretch: normal
+	line-height: 29px
+	letter-spacing: 0.9px
+	text-align: left
+	color: $dark-text
+	
+/*--------OPERAITOR---------*/
+
+.s-mask
+	background-image: linear-gradient(253deg, $gr-lighter, $gr-darker)
+	
+.pic-girl
+	margin: 50px 0
+	img
+		width:auto
+		height: 400px
+	
+.calendar
+	right: -152.5px
+	top: 100px
+	position: absolute
+	z-index: 9
+	background-color: $light
+	box-shadow: 0 2px 4px 0 rgba(111, 111, 111, 0.5)
+	min-width: 600px
+	width:  100%
+	min-height: 100%
+	
+.icon-cal
+	margin-top: 25px
+	
+.text-calendar
+	margin-top: 20px
+	margin-bottom: 0px
+	
+.text-4
+	margin: 15px 20px
+	margin-bottom: 90px
+	&:after 
+		content: ""
+		width: 50%
+		margin-top: 40px
+		border-bottom: solid 2px $yellow-hover
+		left: 25%
+		margin-bottom: 73px
+		position: absolute
+.color-text
+	line-height: normal
+	letter-spacing: 1.8px
+	color: $dark-text
+
+.colum-discount
+	min-height: 220px
+
+.title-discount
+	margin-top: 10px
+	margin-bottom: 0px
+	font-size: 17px
+	letter-spacing: 0.8px
+.text-discount
+	margin: 6px 20px
+	font-family: HelveticaNeue
+	font-size: 16px
+	letter-spacing: 0.7px
+.advent
+	padding: 25px 0
+	&:nth-of-type(1)::after,
+	&:nth-of-type(2)::after,
+	&:nth-of-type(3)::after
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		border-bottom: 1px solid $grey-border
+	&:nth-child(1) .colum-discount,
+	&:nth-child(2) .colum-discount,
+	&:nth-child(4) .colum-discount,
+	&:nth-child(5) .colum-discount
+		border-right: 1px solid $grey-border
+	
+	/*------footer-----*/
+#place
+	background-image: linear-gradient(257deg, $gr-lighter, $gr-darker)
+
+.font-money
+	background-image: url(../jpg/footer.jpg)
+
+.title-money
+	padding: 80px 0
+	
+.gold-title
+	color: $yellow	
+	
+.black-text
+	line-height: 1.03
+	letter-spacing: 0.3px
+	font-family: HelveticaNeue
+	
+.footer-down
+	border-top: 1px solid $light
+	opacity: 0.82
+	height: 100%
+	width: 100%
+	background-image: -webkit-linear-gradient(167deg,  $gr-lighter, $gr-darker)
+	background-image:  -o-linear-gradient(167deg,  $gr-lighter, $gr-darker)
+	background-image: linear-gradient(257deg,  $gr-lighter, $gr-darker)
+	
+.footer-sector
+	color: $light
+	
+
+.form-position
+	margin-top: 94px
+
+.form-senk
+	margin: 0 auto
+	pading: 0
+	display: table
+	top: 94px
+	max-width: 361px
+	border-radius: 3px
+	background-color: $dark-text
+		
+.senks
+	margin-top: 30px
+	color: $yellow
+		
+.shares
+	margin: 7px 10.5px 23px 10.5px
+	font-size: 21px
+	font-family: HelveticaNeue-Bold
+	color: $light
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+		
+.btn-posit
+	margin-bottom: 50px
+#myModal
+	text-align: -webkit-center
+.modal-content
+	display: inline
+	border: none
+.modal-header
+	padding: 5px
+	float: right
+	display: inline-block
+	background: none
+	border: none
+	position: relative
+.modal-open
+	padding-right: 0 !important
+.path-2
+	h2
+		padding-top: 30px
+.againOpen
+	max-width: 360px
+	margin: 0 auto
+

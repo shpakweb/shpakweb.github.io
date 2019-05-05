@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar-with-a-clock-time-tools</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="39.5" cy="39.5" r="33.5"></circle>
+        <filter x="-10.4%" y="-10.4%" width="120.9%" height="120.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.77254902   0 0 0 0 0.109803922  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="39.5" cy="39.5" r="37.5"></circle>
+        <filter x="-9.3%" y="-9.3%" width="118.7%" height="118.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.77254902   0 0 0 0 0.109803922  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="39.5" cy="39.5" r="39.5"></circle>
+        <filter x="-8.9%" y="-8.9%" width="117.7%" height="117.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.77254902   0 0 0 0 0.109803922  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Apple-TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-729.000000, -2328.000000)">
+        <g id="Group-9" transform="translate(440.000000, 2246.000000)">
+            <g id="Group-16" transform="translate(0.000000, 57.000000)">
+                <g id="calendar-with-a-clock-time-tools" transform="translate(289.000000, 25.000000)">
+                    <g id="Group-8">
+                        <g id="Oval">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <circle stroke="#F8C51C" stroke-width="1" cx="39.5" cy="39.5" r="33"></circle>
+                        </g>
+                        <g id="Oval">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <circle stroke="#F8C51C" stroke-width="1" cx="39.5" cy="39.5" r="37"></circle>
+                        </g>
+                        <g id="Oval">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <circle stroke="#F8C51C" stroke-width="1" cx="39.5" cy="39.5" r="39"></circle>
+                        </g>
+                        <circle id="Oval" fill="#F8C51C" cx="39" cy="39" r="30"></circle>
+                    </g>
+                    <path d="M28.6249776,29.5313378 L28.6249776,25.9062556 C28.6249776,25.4052839 29.0302631,25 29.5313565,25 C30.0322107,25 30.4374963,25.4052839 30.4374963,25.9062556 L30.4374963,29.5313378 C30.4374963,30.03219 30.0322107,30.4374739 29.5313565,30.4374739 C29.0302631,30.4375336 28.6249776,30.03219 28.6249776,29.5313378 Z M44.0314461,30.4375336 C44.5321808,30.4375336 44.9377055,30.0322498 44.9377055,29.5313976 L44.9377055,25.9062556 C44.9377055,25.4052839 44.5321808,25 44.0314461,25 C43.5304723,25 43.1248879,25.4052839 43.1248879,25.9062556 L43.1248879,29.5313378 C43.1248879,30.03219 43.5304723,30.4375336 44.0314461,30.4375336 Z M54,46.7497759 C54,50.7539637 50.7538906,54 46.7499851,54 C42.7463784,54 39.5000299,50.7539637 39.5000299,46.7497759 C39.5000299,42.7461857 42.7463186,39.4999701 46.7499851,39.4999701 C50.7538906,39.4999701 54,42.7461259 54,46.7497759 Z M52.1877204,46.7497759 C52.1877204,43.751775 49.748596,41.3123618 46.7500448,41.3123618 C43.7517328,41.3123618 41.3126083,43.7517152 41.3126083,46.7497759 C41.3126083,49.7483744 43.7517328,52.187429 46.7500448,52.187429 C49.748596,52.187429 52.1877204,49.7483744 52.1877204,46.7497759 Z M32.2500747,35.8750075 L28.6249776,35.8750075 L28.6249776,39.4999701 L32.2500747,39.4999701 L32.2500747,35.8750075 Z M28.6249776,44.9375037 L32.2500747,44.9375037 L32.2500747,41.3123618 L28.6249776,41.3123618 L28.6249776,44.9375037 Z M34.0624739,39.4999701 L37.6876307,39.4999701 L37.6876307,35.8750075 L34.0624739,35.8750075 L34.0624739,39.4999701 Z M34.0624739,44.9375037 L37.6876307,44.9375037 L37.6876307,41.3123618 L34.0624739,41.3123618 L34.0624739,44.9375037 Z M26.8125784,46.5695767 L26.8125784,34.0624365 L46.7500448,34.0624365 L46.7500448,37.6875187 L48.5626233,37.6875187 L48.5626233,30.6181512 C48.5626233,29.5171729 47.6845146,28.6249626 46.599669,28.6249626 L45.8437855,28.6249626 L45.8437855,29.5313976 C45.8437855,30.5295757 45.0311823,31.343849 44.0315059,31.343849 C43.0315306,31.343849 42.2189872,30.5295757 42.2189872,29.5313976 L42.2189872,28.6249626 L31.3436958,28.6249626 L31.3436958,29.5313976 C31.3436958,30.5295757 30.531272,31.343849 29.5314162,31.343849 C28.5313214,31.343849 27.7188378,30.5295757 27.7188378,29.5313976 L27.7188378,28.6249626 L26.9638508,28.6249626 C25.8789454,28.6249626 25,29.5171729 25,30.6181512 L25,46.5696364 C25,47.6669689 25.8789454,48.5626457 26.9638508,48.5626457 L37.6876307,48.5626457 L37.6876307,46.7498356 L26.9638508,46.7498356 C26.8817298,46.7497759 26.8125784,46.6649657 26.8125784,46.5695767 Z M43.1248879,39.4999701 L43.1248879,35.8750075 L39.5000897,35.8750075 L39.5000897,39.4999701 L43.1248879,39.4999701 Z M49.4688228,46.7497759 L46.7499851,46.7497759 L46.7499851,44.0309493 C46.7499851,43.5302764 46.3446995,43.1249925 45.8437257,43.1249925 C45.3427519,43.1249925 44.9377055,43.5302764 44.9377055,44.0309493 L44.9377055,47.6563303 C44.9377055,48.157063 45.3427519,48.5625859 45.8437257,48.5625859 L49.4688228,48.5625859 C49.9697966,48.5625859 50.3750822,48.157063 50.3750822,47.6563303 C50.3750822,47.1553586 49.9697966,46.7497759 49.4688228,46.7497759 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

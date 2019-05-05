@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>okey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Apple-TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1282.000000, -3237.000000)">
+        <g id="Group-12" transform="translate(392.000000, 2851.000000)">
+            <g id="Group-11" transform="translate(782.000000, 386.000000)">
+                <g id="okey" transform="translate(108.000000, 0.000000)">
+                    <g id="Group-13">
+                        <path d="M65.9187311,2.63836187 C64.7613763,1.53820223 63.1441796,1.89575411 62.3174976,3.43597761 L36.4836852,51.5679618 C35.6518364,53.1081853 35.9205081,55.2603726 37.0778629,56.3605322 C37.532538,56.7937201 38.0595478,57 38.5813908,57 C39.3874057,57 40.1830871,56.4980522 40.6842631,55.5629165 L66.5180755,7.43093229 C67.3499243,5.8838328 67.0760858,3.73852151 65.9187311,2.63836187 Z" id="Shape" fill="#F8C51C" fill-rule="nonzero"></path>
+                        <path d="M38.4341335,28.1178664 C37.6127849,27.5377822 36.4650969,27.7263095 35.8784194,28.5384274 L17.5447461,53.91711 C16.9544018,54.7292278 17.145072,55.8640175 17.9664206,56.4441016 C18.2890932,56.6725098 18.6631001,56.7812756 19.0334403,56.7812756 C19.605451,56.7812756 20.1701281,56.5166122 20.5258014,56.0235406 L38.8594747,30.644858 C39.449819,29.8291147 39.255482,28.6979505 38.4341335,28.1178664 Z" id="Shape" fill="#F8C51C" fill-rule="nonzero" transform="translate(28.201486, 42.281276) rotate(-74.000000) translate(-28.201486, -42.281276) "></path>
+                        <circle id="Oval-4" stroke="#F9C92A" stroke-width="4" cx="36.5" cy="36.5" r="34.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
