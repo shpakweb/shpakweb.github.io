@@ -1,13 +1,18 @@
 body {
 	font-family: 'Segoe UI', sans-serif;
+	background: #262626;
+	color: #fff;
 }
 a {
 	text-decoration: none;
-	color: #777;
+	color: #fafafa;
+	font-weight: 100;
+	font-size: 18px;
+	letter-spacing: 0.08em;
 }
 a:hover {
 	text-decoration: none;
-
+	color: #eee;
 }
 h2 {
 	font-weight: 100;
@@ -16,10 +21,17 @@ h2 {
 }
 .works {
 	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .work-item {
-	display: inline-block;
+	display: flex;
 	text-align: center;
+	width: 20%;
+	margin: 2% 3%;
+	min-width: 180px;
+	max-width: 250px;
 }
 .work-item img {
 	margin-bottom: 15px;
@@ -27,4 +39,36 @@ h2 {
 .work-item img:hover {
 	box-shadow: 20px 20px 20px rgba(0,0,0,0.05);
 	transition: .5s;
+}
+
+/******************Typed text styles******************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.title {
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 15px;
+}
+
+.typed-text {
+    color: #FFB300;
+    text-transform: unset;
+}
+.cursor {
+  display: inline-block;
+  background-color: #FFB300;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
